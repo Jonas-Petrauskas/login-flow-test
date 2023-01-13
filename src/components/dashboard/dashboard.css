@@ -1,0 +1,56 @@
+.dashboard-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2e3440;
+}
+
+.profile-container {
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 1.2rem;
+  color: #f7eee2;
+}
+
+#avatar {
+  border-radius: 50%;
+}
+
+#name {
+  color: #f7eee2;
+}
+
+.logout-link {
+  color: #f7eee2;
+  margin-bottom: 20px;
+}
+
+.wallet-connect-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #f7eee2;
+}
+
+.wallet-connect-container > h3 {
+  font-size: 1rem;
+  /* margin-right: 20px; */
+}
+
+.wallet-connect-container > button {
+  padding: 10px;
+  background: #2e3440;
+  color: #f7eee2;
+  border: 2px solid #f7eee2;
+  transition: all 0.2s ease-in-out;
+  border-radius: 10px;
+  box-shadow: rgba(251, 251, 251, 0.24) 0px 3px 8px;
+}
+.wallet-connect-container > button:hover {
+  transform: scale(1.05);
+}

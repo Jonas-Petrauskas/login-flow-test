@@ -1,0 +1,30 @@
+.login__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 4px solid #f2c56f;
+  width: 500px;
+  height: 200px;
+  background: #171c38;
+}
+
+.login-button {
+  margin-top: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-button > a {
+  background: #5a417b;
+  color: #f7eee2;
+  border: 2px solid #f2c56f;
+  border-radius: 10px;
+  width: 150px;
+  padding: 10px 50px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.login-button:hover {
+  transform: scale(1.1);
+}

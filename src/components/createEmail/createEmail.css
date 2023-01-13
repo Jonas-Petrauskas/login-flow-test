@@ -1,0 +1,69 @@
+.email-login__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.email-login__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 4px solid #f2c56f;
+  background: #171c38;
+  width: 500px;
+  height: 250px;
+}
+
+#email-input {
+  outline: none;
+  height: 25px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+#checkbox {
+  margin-right: 10px;
+}
+
+.create-account-buton {
+  margin-top: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.create-account-buton:hover {
+  transform: scale(1.1);
+}
+
+.create-account-buton > a {
+  background: #5a417b;
+  color: #f7eee2;
+  border: 2px solid #f2c56f;
+  border-radius: 10px;
+  width: 150px;
+  padding: 10px;
+  margin: 10px auto 0 auto;
+  text-decoration: none;
+}
+
+.container-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #f7eee2;
+}
+
+#terms-text {
+  font-size: 0.8rem;
+  color: #f7eee2;
+}
